@@ -1,0 +1,16 @@
+{
+  "name": "personal_website",
+  "version": "1.0.0",
+  "description": "My personal website/portfolio. Will be a continuous project, adding new features and functionality as I discover them and learn how to add them.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Scott W Deane",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3"
+  }
+}
