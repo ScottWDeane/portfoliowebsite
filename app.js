@@ -15,7 +15,23 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.set("view engine", "ejs");
 
 app.get("/", function(req, res){
-    res.render("landing");
+    res.render("home");
+});
+
+app.get("/socialMedia", function(req, res){
+    res.render("socialMedia");
+});
+
+app.get("/projects/jobAppTrackerMapper", function(req, res){
+    res.render("jobAppMapper");
+});
+
+app.get("/projects/oracleDBMovieRental", function(req, res){
+    res.render("oracleMovieRental");
+});
+
+app.get("/projects/yelpCampModified", function(req, res){
+    res.render("yelpCamp");
 });
 
 app.listen(process.env.PORT, process.env.IP, function(){

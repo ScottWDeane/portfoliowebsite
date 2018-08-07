@@ -1,0 +1,4 @@
+git init
+git commit -m "comment here"
+git remote add origin [repostiroy's .git link goes here]
+git push -u origin master
