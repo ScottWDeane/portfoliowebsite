@@ -1,5 +1,17 @@
+for first time project:
 git init
 git add .
 git commit -m "comment here"
 git remote add origin [repostiroy's .git link goes here]
 git push -u origin master
+
+for updating project:
+git init
+git add .
+git commit -m "comment here"
+git push -u origin master
+
+for starting mongod:
+cd into home (into "~")
+type " ./mongod "
+if that doesnt work, instructions on udemy "ultimate web dev bootcamp" Q&A I'm following

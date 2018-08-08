@@ -12,6 +12,8 @@
             crossorigin="anonymous"
         >
         
+        <link rel="stylesheet" href="/stylesheets/main.css">
+        
         <title>Scott's Website</title>
         
     </head>
@@ -28,12 +30,17 @@
                         <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Social Media <span class="sr-only"></span></a>
+                        <a class="nav-link" href="/socialMedia">Social Media <span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/projects">Projects <span class="sr-only"></span></a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Projects/Programs
+                            <!--Projects/Programs ... left blank on purpose--> 
                         </a>
+                        <!-- TO-DO: Make following drop-down menus dynamic, automatically being generated based on new projects I upload into the mongo DB-->
+                        <!-- For now, they'll be hard-coded web-pages web1.0 style-->
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                           <a class="dropdown-item" href="#">[Python] Job Application Tracker/Mapper</a>
                           <a class="dropdown-item" href="#">[Oracle SQL] Fictional Movie Rental Company Database Student Project</a>
