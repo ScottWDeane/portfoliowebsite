@@ -1,2 +1,7 @@
 /*It works! Praise the Light!*/
 
+/*following color modifications are temporary so I don't blind myself as I work on the content*/
+body {
+    color: white;
+    background-color: black;
+}

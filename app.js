@@ -27,15 +27,15 @@ app.get("/socialMedia", function(req, res){
     res.render("socialMedia");
 });
 
-app.get("/projects/jobAppTrackerMapper", function(req, res){
+app.get("/jobAppMapper", function(req, res){
     res.render("jobAppMapper");
 });
 
-app.get("/projects/oracleDBMovieRental", function(req, res){
+app.get("/oracleMovieRental", function(req, res){
     res.render("oracleMovieRental");
 });
 
-app.get("/projects/yelpCampModified", function(req, res){
+app.get("/yelpCamp", function(req, res){
     res.render("yelpCamp");
 });
 
