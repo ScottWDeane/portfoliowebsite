@@ -5,3 +5,20 @@ body {
     color: white;
     background-color: black;
 }
+
+.jumbotron {
+    background-color: #72859A;
+    color: black;
+}
+
+.carousel-inner > .carousel-item > img {
+    margin: auto;
+}
+
+.carousel-caption {
+    color: black;
+}
+
+.button-centerizer {
+    text-align: center;
+}
